@@ -1,81 +1,130 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@article{Ravichandran2023design,
+  abbr={VLDB},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+  title={[SUBMITTED] Design and implementation of multi-consumer shuffles in big-data systems},
+  author={Gakhar, Sunny and Cahoon, Joyce and Le, Wangchao and Li, Xiangnan and Ravichandran, Kaushik and Patel, Hiren and Friedman, Marc and Haynes, Brandon and Qiao, Shi and Jindal, Alekh and Leeka, Jyoti},
+  abstract={Distributed query processing engines suffer from expensive data shuffles that incur high I/O and network costs to materialize and transfer large amounts of data over the network. We analyzed our production workload in scope, an SQL-like language used extensively within Microsoft for big-data analytics and found that a significant fraction of these shuffles are introduced by Spools (logical operators that facilitate reuse of intermediate results) and exchanges (pair of data partitioning and aggregation operators). This paper presents the Splitter, a super-operator that implements all Spool induced shuffles and specializes the data materialized for each of its consumers. Splitters reduce the cost of shuffles by opportunistically pre-evaluating operations performed after the Spool, to reduce the size of data materialized. The Splitter could also eliminate shuffles entirely by fusing all operators up to and including a subsequent exchange or data outputting operation along one or more consumer branches. Our evaluation on production jobs at Microsoft indicates that 27.5% of jobs that run daily use at least one Splitter, which eliminates exchange induced shuffles after Spools in 7.5% of all jobs. Introducing the Splitter operator leads to overall savings of about 12% in latency and query running time, 16% in CPU time, 39% in data read and 22% in data written for all jobs that have Splitters. We see speed ups of upto 6.5x in latency and 22x in total I/O time on some jobs where a Splitter was introduced.},
+  journal={Proceedings of the VLDB Endowment},
+  volume={16},
+  year={2023},
+  publisher={VLDB Endowment}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{gakhar2022pipemizer,
+  abbr={VLDB},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  title={[ACCEPTED] Pipemizer: An Optimizer for Analytics Data Pipelines},
+  author={Gakhar, Sunny and Cahoon, Joyce and Le, Wangchao and Li, Xiangnan and Ravichandran, Kaushik and Patel, Hiren and Friedman, Marc and Haynes, Brandon and Qiao, Shi and Jindal, Alekh and Leeka, Jyoti},
+  abstract={The abstract will be made available soon.},
+  journal={Proceedings of the VLDB Endowment},
+  volume={15},
+  year={2022},
+  publisher={VLDB Endowment}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@article{ravichandran2022fast,
+  abbr={Elsevier},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  title={[TO APPEAR] Fast exact triangle counting in large graphs using SIMD acceleration},
+  author={Ravichandran, Kaushik and Subramaniasivam, Akshara and Aishwarya, PS and Kumar, NS},
+  abstract={Triangle counting is a cornerstone operation used in large graph analytics. Hash based algorithms for triangle counting fail to take advantage of available vectorization in modern processors. Linear algebraic based methods often involve sparse matrix multiplication which is inherently expensive. Non linear algebraic methods have a slow implementation and count each triangle multiple times which is then re-scaled to obtain the exact triangle count. We propose a fast vector instruction implementation of a set operation based triangle counting algorithm, which avoids matrix multiplication and finds the exact triangle count directly. Our implementation outperforms reference implementations proposed by the MIT graph challenge and miniTri when tried on about 40 graphs from the SNAP large network dataset, giving a speedup ranging from 41x to more than 1500x. A comparison against existing state of the art techniques gave a speedup of 3x on average. We additionally show that this algorithm can easily be plugged into graph frameworks that either use or can be modified to use compressed sparse row like representation, to give faster compute times. We also propose an optimization to the k truss decomposition algorithm that can be used with the optimized triangle counting algorithm to give better performance},
+  booktitle={Principles of Big Graph: In-depth Insight},
+  journal={Advances in Computers},
+  volume={129},
+  year={2022},
+  organization={Elsevier},
+  publisher={Elsevier}
+}
+
+@incollection{subramaniasivam2021embedding,
+  abbr={Springer},
+  bibtex_show={true},
+  title={Embedding-Assisted Auto-Tuned Community Detection},
+  author={Subramaniasivam, Akshara and Ravichandran, Kaushik and Poomuttam Sreedas, Aishwarya and Das, Bhaskarjyoti},
+  booktitle={Emerging Technologies in Data Mining and Information Security},
+  abstract={State-of-the-art techniques for community detection in graphs either use feature-based clustering algorithms or structure-driven spectral clustering approaches. The former takes into consideration only the semantic relations based on node features, and the latter uses structural information for an analysis in eigenspace. Hence, neither of these two approaches can provide a very accurate detection of communities. The existing node2vec algorithm translates structural information into an embedding space. We propose a novel approach that combines all of these and obtains encouraging results in large graphs. The proposed approach in this work brings in few innovations in the form of an auto-tuning framework to address the existing shortcomings of these methods. It stabilizes an important hyper-parameter of spectral clustering and brings in a step-heuristic along with a proposed BinKMeans (binary search-driven k-means) algorithm to better detect a distinct drop in eigenvalue while using spectral clustering. Additionally, the pipeline implements NodeFeat2Vec to bring in feature information in node2Vec. An in-depth evaluation with real-world graph data showed that this proposed approach obtained superior results when evaluated using appropriate metrics on communities in labelled real-world graphs.},
+  pages={413--427},
+  year={2021},
+  organization={Springer},
+  publisher={Springer},
+  url={https://link.springer.com/chapter/10.1007/978-981-15-9774-9_39},
+  html={https://link.springer.com/chapter/10.1007/978-981-15-9774-9_39},
+  doi={10.1007/978-981-15-9774-9_39}
+}
+
+@incollection{subramaniasivam2022devchar,
+  abbr={Springer},
+  bibtex_show={true},
+  title={DevChar: An Extensive Dataset for Optical Character Recognition of Devanagari Characters},
+  author={Subramaniasivam, Akshara and Shaik, Azhar and Ravichandran, Kaushik and George, Manu},
+  abstract={The advent of cameras has only accelerated the need to digitize content as it helps prevent data corruption by natural processes and enables faster transfer of the data across communities. Handwritten documents and ancient manuscripts form a large part of this data as they call for a need to be translated from the local languages they were written in. The first step into solving this problem is the recognition of handwritten text. Existing handwritten datasets for the Devanagari script can be used for the recognition of individual characters, but they fail to perform well when the text contains matras and conjuncts created by joining character modifiers. This also introduces a dependency between the model and the data source due to required pre-processing for extracting characters recognized by the model from the word itself. These datasets also lack variation in their penmanship which is essential to encompass diversity in the writing style. We present an extensive dataset that addresses these issues. Our dataset has around 4 million characters of varying handwriting styles, complex characters and matras. Training a simple CNN on our data, to detect characters with matras, gave accuracies exceeding 98%. We also show that using this dataset allows a separation of the input data format from the model design, thus allowing researchers to focus on the latter. This dataset is made publicly available at DevChar2020.},
+  booktitle={Advances in Communication, Devices and Networking},
+  pages={125--136},
+  year={2021},
+  publisher={Springer},
+  url={https://link.springer.com/chapter/10.1007/978-981-16-2911-2_13},
+  html={https://link.springer.com/chapter/10.1007/978-981-16-2911-2_13},
+  doi={10.1007/978-981-16-2911-2_13}
+}
+
+@inproceedings{krishnan2021albatross,
+  abbr={Springer},
+  bibtex_show={true},
+  title={Albatross Optimization Algorithm: A Novel Nature Inspired Search Algorithm},
+  author={Krishnan, Keertan and Subramaniasivam, Akshara and Ravichandran, Kaushik and Subramanyam, Natarajan},
+  booktitle={International Conference on Emerging Trends and Technologies on Intelligent Systems},
+  abstract={The venture of meta-heuristic optimization algorithms into the field of biology has only accelerated growth in swarm intelligence and evolutionary algorithms. We present one such novel approach, inspired by several avian algorithms, mimicking the lifestyle and breeding pattern of the Laysan Albatross. The proposed algorithm is suitable for any nonlinear continuous function optimization task and proves to perform better for training neural networks, compared to gradient-based approaches such as back-propagation and other bio-inspired approaches such as the Whale Optimization Algorithm. We also show that it is also not as susceptible to overfitting. We tested our algorithm on a total of 12 datasets and obtained an average train accuracy of 0.785, average training standard deviation of 0.037, average test accuracy of 0.793 and an average test standard deviation of 0.035.},
+  pages={203--216},
+  year={2021},
+  organization={Springer},
+  publisher={Springer},
+  url={https://link.springer.com/chapter/10.1007/978-981-16-3097-2_17},
+  html={https://link.springer.com/chapter/10.1007/978-981-16-3097-2_17},
+  doi={10.1007/978-981-16-3097-2_17}
+}
+
+@inproceedings{ravichandran2020novel,
+  abbr={Springer},
+  bibtex_show={true},
+  title={A Novel Graph Based Approach to Predict Man of the Match for Cricket},
+  author={Ravichandran, Kaushik and Gattani, Lalit and Nair, Advithi and Das, Bhaskarjyoti},
+  abstract={The advent of computational intelligence has only accelerated the motive to automate manual processes. In sports, the award of the best player is questionable in many cases and requires the opinion of multiple distinguished experts in the sport. This often results in an unfair judgement of the situation, given the time constraint for making this decision, and the dependence on pure human skill and reasoning. This calls for a reliable and fair system to fairly award the man of the match, taking into account the numerous variables. Though there are machine learning based approaches trying to model the game for predicting win/loss outcome, it is hard to model the “man of the match” in a cricket game using the same approach. We propose a novel graph based approach to award the “man of the match” to a player for a cricket game. We model the game as a directed graph with each player as a node and an interaction between two players as an edge. We use ball by ball delivery details to construct this graph with a heuristics to calculate the edge weights and compute node centrality of every player using the Personalized Pagerank algorithm to find the most central player in the game. A high centrality indicates a good overall performance of the player. Comparison with existing game data showed encouraging results.},
+  booktitle={International Conference on Machine Learning, Image Processing, Network Security and Data Sciences},
+  pages={600--611},
+  year={2020},
+  organization={Springer},
+  publisher={Springer},
+  doi={10.1007/978-981-15-6318-8_48},
+  url={https://link.springer.com/chapter/10.1007/978-981-15-6318-8_48},
+  html={https://link.springer.com/chapter/10.1007/978-981-15-6318-8_48}
+}
+
+@inproceedings{ravichandran2019new,
+  abbr={CMU},
+  bibtex_show={true},
+  title={Optimization of Graph Algorithms using SIMD Acceleration},
+  author={Ravichandran, Kaushik and Zhang, Jiyuan and Franchetti, Franz},
+  booktitle={Carnegie Mellon University ECE Summer Intern Research Symposium},
+  year={2019},
+  organization={CMU},
+  url={https://drive.google.com/file/d/1LfbDYFa6KT3SRerchnjnBAsl_h2ruvEi/},
+  html={https://drive.google.com/file/d/1LfbDYFa6KT3SRerchnjnBAsl_h2ruvEi/}
+}
+
+@inproceedings{ravi2017new,
+  abbr={IEEE},
+  bibtex_show={true},
+  title={A new approach to detect paste forgeries in an image},
+  author={Ravi, Kaushik and Devraj, Nypunya and Shylaja, SS},
+  booktitle={2017 Fourth International Conference on Image Information Processing (ICIIP)},
+  abstract={},
+  pages={1--6},
+  year={2017},
+  organization={IEEE},
+  publisher={Springer},
+  doi={10.1109/ICIIP.2017.8313799},
+  url={https://ieeexplore.ieee.org/abstract/document/8313799},
+  html={https://ieeexplore.ieee.org/abstract/document/8313799}
 }

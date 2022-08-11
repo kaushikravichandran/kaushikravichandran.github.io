@@ -1,6 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"VLDB":
+  url: https://vldb.org/vldb_journal/
+  color: "#FF0000"
+
+"Springer":
+  url: https://link.springer.com/
+  color: "#006400"
+
+"Elsevier":
+  url: https://www.elsevier.com/en-in
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IEEE":
+  url: https://ieeexplore.ieee.org/Xplore/home.jsp
+  color: "#ADD8E6"
+
+"CMU":
+  url: https://www.ece.cmu.edu/
+  color: "#FF00FF"
