@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: >
+ <a href='https://www.gatech.edu/'>Georgia Institute of Technology</a> |
+ <a href='https://www.microsoft.com/en-in/msidc'>Microsoft R&D</a> |
+ <a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-india/'>Microsoft Research</a> |
+ <a href='https://www.cmu.edu/'>Carnegie Mellon University</a> |
+ <a href='https://www.pes.edu/'>PES University</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address:
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am a Master's in Computer Science student studying at Georgia Tech. I target specializing in Computer Systems. I will be contributing to the <a href="https://evagatech.readthedocs.io/">EVA</a> project with mentorship from <a href="https://faculty.cc.gatech.edu/~jarulraj/">Prof. Joy Arulraj</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<span style="color:Red;display:inline;">I am on the job market now!</span> I am looking for Applied Scientist/Research SDE/Research Engineering internships as well as full-time opportunities. I wish to use my experience in building robust large-scale systems for querying big data workloads in the form of text, videos and graphs and my skills in producitizing high-quality research to contribute to the very-large databases community as well as drive the product to its north star. Please reach out to me if your team or organization has any openings.
