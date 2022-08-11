@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-06-02 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+Our work on Pipemizer has been accepted to be <a href="https://vldb.org/2022/?program-schedule-demonstrations"> Demo'ed </a> in VLDB 2022
