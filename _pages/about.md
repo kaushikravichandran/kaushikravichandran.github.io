@@ -20,9 +20,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I am a Master's in Computer Science student studying at Georgia Tech. I target specializing in Computer Systems. I am a part of GaTech's <a href="https://db.cc.gatech.edu/">Databases Research Group</a> and will be contributing to the <a href="https://evagatech.readthedocs.io/">EVA</a> project with mentorship from <a href="https://faculty.cc.gatech.edu/~jarulraj/">Prof. Joy Arulraj</a>.
+Hi! I am a Master's in Computer Science student at Georgia Tech. I target specializing in Computer Systems and am a part of GaTech's <a href="https://db.cc.gatech.edu/">Databases Research Group</a>. I will be contributing to the <a href="https://evagatech.readthedocs.io/">EVA</a> project with mentorship from <a href="https://faculty.cc.gatech.edu/~jarulraj/">Prof. Joy Arulraj</a>.
 
-<span style="color:Red;display:inline;" class="blink">I am on the job market now!</span> I am looking for Applied Scientist/Research SDE/Research Engineering internships (Summer 2023) and full-time opportunities (Spring 2024). I wish to use my experience in building robust large-scale systems for big-data analytics and my skills in producitizing high-quality research, to contribute to the very-large databases community as well as drive products to their north star. Please reach out to me if your team or organization has any openings.
+<span style="color:Red;display:inline;" class="blink">I am on the job market now!</span> I am looking for Applied Scientist/Research SDE/Research Engineering internships (Summer 2023) and full-time opportunities (January 2024). I wish to use my experience in building robust large-scale systems for big-data analytics and my skills in producitizing high-quality research, to contribute to the very-large databases community as well as drive products to their north star. Please reach out to me if your team or organization has any openings.
 
 Note: This site is a work in progress! Will be complete soon.
 <style>
