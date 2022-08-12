@@ -24,6 +24,7 @@ Hi! I am a Master's in Computer Science student studying at Georgia Tech. I targ
 
 <span style="color:Red;display:inline;" class="blink">I am on the job market now!</span> I am looking for Applied Scientist/Research SDE/Research Engineering internships (Summer 2023) and full-time opportunities (Spring 2024). I wish to use my experience in building robust large-scale systems for big-data analytics and my skills in producitizing high-quality research, to contribute to the very-large databases community as well as drive products to their north star. Please reach out to me if your team or organization has any openings.
 
+Note: This site is a work in progress! Will be complete soon.
 <style>
   .blink {
   animation: blink 1s step-start infinite;
