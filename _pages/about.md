@@ -22,47 +22,4 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! I am a Master's in Computer Science student at Georgia Tech. I target specializing in Computer Systems and am a part of GaTech's <a href="https://db.cc.gatech.edu/">Databases Research Group</a>. I will be contributing to the <a href="https://evagatech.readthedocs.io/">EVA</a> project with mentorship from <a href="https://faculty.cc.gatech.edu/~jarulraj/">Prof. Joy Arulraj</a>.
 
-<span style="color:Red;display:inline;" class="blink">I am on the job market now!</span> I am looking for Applied Scientist/Research SDE/Research Engineering internships (Summer 2023) and full-time opportunities (January 2024). I wish to use my experience in building robust large-scale systems for big-data analytics and my skills in producitizing high-quality research, to contribute to the very-large databases community as well as drive products to their north star. Please reach out to me if your team or organization has any openings.
-
-Note: This site is a work in progress! Will be complete soon.
-<style>
-  .blink {
-  animation: blink 1s step-start infinite;
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  10% {
-    opacity: 0.8;
-  }
-  20% {
-    opacity: 0.6;
-  }
-  30% {
-    opacity: 0.4;
-  }
-  40% {
-    opacity: 0.2;
-  }
-  50% {
-    opacity: 0;
-  }
-  60% {
-    opacity: 0.2;
-  }
-  70% {
-    opacity: 0.4;
-  }
-  80% {
-    opacity: 0.6;
-  }
-  90% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-</style>
+I am looking for Applied Scientist/Research SDE/Research Engineering internships (Summer 2023) and full-time opportunities (January 2024). I wish to use my experience in building robust large-scale systems for big-data analytics and my skills in producitizing high-quality research, to contribute to the very-large databases community as well as drive products to their north star. Please reach out to me if your team or organization has any openings.
