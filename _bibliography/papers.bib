@@ -3,12 +3,12 @@
 @article{Ravichandran2023design,
   abbr={VLDB},
   bibtex_show={true},
-  title={[IN PROGRESS] Design and implementation of multi-consumer shuffles in big-data systems},
+  title={[PREPRINT] Design and implementation of multi-consumer shuffles in big-data systems},
   author={Ravichandran, Kaushik and Gulavani, Bhargav and Rajan, Kaushik and Friedman, Marc and Li, Xiangnan and Sivathanu, Muthian and Wang, Hongmin},
   abstract={Distributed query processing engines suffer from expensive data shuffles that incur high I/O and network costs to materialize and transfer large amounts of data over the network. We analyzed our production workload in scope, an SQL-like language used extensively within Microsoft for big-data analytics and found that a significant fraction of these shuffles are introduced by Spools (logical operators that facilitate reuse of intermediate results) and exchanges (pair of data partitioning and aggregation operators). This paper presents the Splitter, a super-operator that implements all Spool induced shuffles and specializes the data materialized for each of its consumers. Splitters reduce the cost of shuffles by opportunistically pre-evaluating operations performed after the Spool, to reduce the size of data materialized. The Splitter could also eliminate shuffles entirely by fusing all operators up to and including a subsequent exchange or data outputting operation along one or more consumer branches. Our evaluation on production jobs at Microsoft indicates that 27.5% of jobs that run daily use at least one Splitter, which eliminates exchange induced shuffles after Spools in 7.5% of all jobs. Introducing the Splitter operator leads to overall savings of about 12% in latency and query running time, 16% in CPU time, 39% in data read and 22% in data written for all jobs that have Splitters. We see speed ups of upto 6.5x in latency and 22x in total I/O time on some jobs where a Splitter was introduced.},
   journal={Proceedings of the VLDB Endowment},
   volume={16},
-  year={2023},
+  year={2022},
   publisher={VLDB Endowment}
 }
 
