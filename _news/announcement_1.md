@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-06-02 15:59:00-0400
+date: 2023-09-11
 inline: true
 ---
 
-Pipemizer has been accepted to be <a href="https://vldb.org/2022/?program-schedule-demonstrations"> Demo'ed </a> in VLDB 2022
+Our work on Triangle Counting has been accepted to be presented at <a href="https://sc23.supercomputing.org/"> Supercomputing Conference, </a> 2023
