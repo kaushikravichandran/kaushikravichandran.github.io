@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2022-06-22
+date: 2023-08-19
 inline: true
 ---
 
-I have joined the <a href="https://evagatech.readthedocs.io/"> EVA </a> project team
+I will be a Teaching Assistant for the <a href="https://faculty.cc.gatech.edu/~jarulraj/courses/4420-f23/"> Database Systems Implementation </a> course, taught by <a href="https://faculty.cc.gatech.edu/~jarulraj/"> Dr Joy Arulraj </a>
+

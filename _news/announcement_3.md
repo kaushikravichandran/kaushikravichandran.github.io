@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-08-19
+date: 2023-08-18
 inline: true
 ---
 
-I will be a Teaching Assistant for the <a href="https://kexinrong.github.io/fa22-cs8803/"> Human-in-the-loop Data Analytics </a> course, taught by <a href="https://kexinrong.github.io/"> Dr Kexin Rong </a>
+I just completed interning at <a href="https://airmettle.com/"> AirMettle </a>, where I worked on interesting state-of-the-art optimizations for tensor data provided by NSF and NOAA.
