@@ -16,10 +16,10 @@
       institution: <a href="https://airmettle.com/">AirMettle</a> (Mentors- <a href="https://www.linkedin.com/in/donpaul-stephens/">Donpaul Stephens</a> and <a href="https://www.linkedin.com/in/mattyouill/">Matt Youill</a>)
       year: Jun 2023 - Aug 2023
       description:
-        - Incubator of the SCOPE Cloud Query Optimizer Team (India), which owns the optimizer phase of the petabyte-scale distributed query processing engine
-        - Collaborated with research teams (<a href="https://www.microsoft.com/en-us/research/project/instalytics-storage-for-big-data/">INSTalytics</a>, <a href="https://www.microsoft.com/en-us/research/group/gray-systems-lab/">GSL</a>) to conduct and productize research.
-        - Contributed to DevOps, mitigating livesite issues and conducted interviews for the <a href="https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-azure/">Azure Data Org</a> at Microsoft. 
-    
+        - Worked on building a Query Optimizer for semi-structured data (JSON, NetCDF, Tensor)
+        - Improved the performance of querying atmospheric data provided by NOAA
+        - Designed novel multi-dumension shuffle operation to enable distributed execution of big-data queries that operate on tensor data
+  
     - title: Research Intern
       institution: <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/">Microsoft Research Labs India</a> (Mentor- <a href="https://in.linkedin.com/in/bhargavgulavani">Dr Bhargav Gulavani</a> and <a href="https://www.microsoft.com/en-us/research/people/krajan/">Dr Kaushik Rajan</a>)
       year: Jan 2020 - Jun 2020
