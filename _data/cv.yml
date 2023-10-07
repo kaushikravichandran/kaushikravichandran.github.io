@@ -1,8 +1,19 @@
-- title: Internship/Full-time
+- title: Full-time
   type: time_table
   contents:
     - title: Software Engineer
       institution: <a href="https://www.microsoft.com/en-in/msidc">Microsoft R&D India</a> (Mentor- <a href="https://www.linkedin.com/in/marc-friedman-b212096">Dr Marc Friedman</a>)
+      year: Jul 2020 - Aug 2022
+      description:
+        - Incubator of the SCOPE Cloud Query Optimizer Team (India), which owns the optimizer phase of the petabyte-scale distributed query processing engine
+        - Collaborated with research teams (<a href="https://www.microsoft.com/en-us/research/project/instalytics-storage-for-big-data/">INSTalytics</a>, <a href="https://www.microsoft.com/en-us/research/group/gray-systems-lab/">GSL</a>) to conduct and productize research.
+        - Contributed to DevOps, mitigating livesite issues and conducted interviews for the <a href="https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-azure/">Azure Data Org</a> at Microsoft. 
+
+- title: Internship
+  type: time_table
+  contents:
+    - title: Software Engineering Intern
+      institution: <a href="https://airmettle.com/">AirMettle</a> (Mentors- <a href="https://www.linkedin.com/in/donpaul-stephens/">Donpaul Stephens</a> and <a href="https://www.linkedin.com/in/mattyouill/">Matt Youill</a>)
       year: Jul 2020 - Aug 2022
       description:
         - Incubator of the SCOPE Cloud Query Optimizer Team (India), which owns the optimizer phase of the petabyte-scale distributed query processing engine
@@ -24,11 +35,3 @@
         - Worked on optimizing graph algorithms using SIMD acceleration in the <a href="http://www.spiral.net/">SPIRAL</a> group.
         - Designed a set operation based implementation using Intel Vector Instructions of the breadth first search algorithm which beat the benchmark for the breadth first search on some graphs from <a href="http://snap.stanford.edu/">SNAP</a>.
         - Identified the bottleneck of the algorithm to be the SIMD implementation of small-large set operations
-
-    - title: Freelance ML Developer
-      institution: <a href="https://eoxvantage.com/">EOX Vantage</a>
-      year: May 2018 - Jul 2018
-      description:
-        - Worked on predictive analysis of data using CNNs.
-        - Built different models to predict insurance claim amounts for a new customer.
-        - Designed a CNN that achieved 93% test accuracy, verified on data provided by Vantage Agora.
