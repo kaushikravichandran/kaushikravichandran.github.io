@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-09-11
+date: 2024-05-28
 inline: true
 ---
 
-Our work on Triangle Counting has been accepted to be presented at <a href="https://sc23.supercomputing.org/"> Supercomputing Conference, </a> 2023
+I will begin working in the Platform team at <a href="https://www.snowflake.com/en/"> Snowflake</a>!
