@@ -1,11 +1,21 @@
 - title: Full-time
   type: time_table
   contents:
+    - title: Software Engineer 3
+      institution: <a href="https://cloud.google.com/dataproc">Google Cloud Dataproc</a> (Mentor- <a href="#">David Rabinowitz</a>)
+      year: Aug 2024 - Present
+      description:
+        - Spark-BigQuery Connector: Building the connector that supports reading Google BigQuery tables into Spark's DataFrames, and writing DataFrames back into BigQuery.
+
+- title: Full-time
+  type: time_table
+  contents:
     - title: Software Engineer
       institution: <a href="https://snowflake.com/">Snowflake</a> (Mentor- <a href="#">Sandeep Seethapathy</a>)
-      year: May 2024 - Present
+      year: May 2024 - Jul 2025
       description:
-        - Working in the Execution team of the SQL org that operates the core data processing engine
+        - 10x Initiative: Improving the Insert/CTAS code path to make the execution layer more price performant
+        - Iceberg Performance: Optimizing the scanner to improve support for Iceberg tables in external storage
 
     - title: Software Engineer
       institution: <a href="https://www.microsoft.com/en-in/msidc">Microsoft R&D India</a> (Mentor- <a href="https://www.linkedin.com/in/marc-friedman-b212096">Dr Marc Friedman</a>)

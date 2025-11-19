@@ -20,7 +20,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm a Software Engineer at Snowflake, the world's best data platform ❄️
+Hi! I'm a Software Engineer at Google LLC
+
+I specialize in Database Systems and large-scale Computer Systems. I have a rich experience building some of the world's state of the art systems at Google, Snowflake and Microsoft.
 
 I graduated from Georgia Tech with a Master's degree in Computer Science and a speicialization in Computing Systems. I was a member of GaTech's <a href="https://db.cc.gatech.edu/">Databases Research Group</a> and <a href="https://habanero.cc.gatech.edu/">Habanero Extreme Scale Software Research Laboratory</a>. During my Master's I have contributed to the <a href="https://evadb.readthedocs.io/">EVA</a> project with mentorship from <a href="https://faculty.cc.gatech.edu/~jarulraj/">Dr Joy Arulraj</a> and <a href="https://hclib-actor.com/"> HCLib Actor Library</a> of the FORZA project with mentorship from <a href="https://vsarkar.cc.gatech.edu/">Dr Vivek Sarkar</a>.
 
